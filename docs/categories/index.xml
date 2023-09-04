@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Xaver Fuchs Research</title>
-    <link>https://xaverfuchs.github.io/xaverfuchsde/categories/</link>
+    <link>https://xaverfuchs.github.io/xaverfuchsde/docs/categories/</link>
     <description>Recent content in Categories on Xaver Fuchs Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://xaverfuchs.github.io/xaverfuchsde/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://xaverfuchs.github.io/xaverfuchsde/docs/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>music</title>
-      <link>https://xaverfuchs.github.io/xaverfuchsde/categories/music/</link>
+      <link>https://xaverfuchs.github.io/xaverfuchsde/docs/categories/music/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://xaverfuchs.github.io/xaverfuchsde/categories/music/</guid>
+      <guid>https://xaverfuchs.github.io/xaverfuchsde/docs/categories/music/</guid>
       <description></description>
     </item>
     
     <item>
       <title>art</title>
-      <link>https://xaverfuchs.github.io/xaverfuchsde/categories/art/</link>
+      <link>https://xaverfuchs.github.io/xaverfuchsde/docs/categories/art/</link>
       <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://xaverfuchs.github.io/xaverfuchsde/categories/art/</guid>
+      <guid>https://xaverfuchs.github.io/xaverfuchsde/docs/categories/art/</guid>
       <description></description>
     </item>
     
