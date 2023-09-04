@@ -2,51 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>test.xaverfuchs.de/categories/</loc>
+    <loc>./categories/</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>test.xaverfuchs.de/tags/equipment/</loc>
+    <loc>./tags/equipment/</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>test.xaverfuchs.de/</loc>
+    <loc>./</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>test.xaverfuchs.de/tags/modding/</loc>
+    <loc>./tags/modding/</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>test.xaverfuchs.de/post/2022/10/02/modding-zoom-b1four/</loc>
+    <loc>./post/2022/10/02/modding-zoom-b1four/</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>test.xaverfuchs.de/categories/music/</loc>
+    <loc>./categories/music/</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>test.xaverfuchs.de/post/</loc>
+    <loc>./post/</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>test.xaverfuchs.de/tags/setup/</loc>
+    <loc>./tags/setup/</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>test.xaverfuchs.de/tags/</loc>
+    <loc>./tags/</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>test.xaverfuchs.de/tags/animation/</loc>
+    <loc>./tags/animation/</loc>
     <lastmod>2022-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>test.xaverfuchs.de/categories/art/</loc>
+    <loc>./categories/art/</loc>
     <lastmod>2022-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>test.xaverfuchs.de/post/2022/02/20/circleanimations/</loc>
+    <loc>./post/2022/02/20/circleanimations/</loc>
     <lastmod>2022-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>test.xaverfuchs.de/post/2022/02/02/squareanimations/</loc>
+    <loc>./post/2022/02/02/squareanimations/</loc>
     <lastmod>2022-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>test.xaverfuchs.de/contact/</loc>
+    <loc>./contact/</loc>
   </url><url>
-    <loc>test.xaverfuchs.de/bio/</loc>
+    <loc>./bio/</loc>
   </url><url>
-    <loc>test.xaverfuchs.de/musicandarts/</loc>
+    <loc>./musicandarts/</loc>
   </url><url>
-    <loc>test.xaverfuchs.de/research/</loc>
+    <loc>./research/</loc>
   </url>
 </urlset>

@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Xaver Fuchs Research</title>
-    <link>test.xaverfuchs.de/tags/</link>
+    <link>./tags/</link>
     <description>Recent content in Tags on Xaver Fuchs Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="test.xaverfuchs.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="./tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>equipment</title>
-      <link>test.xaverfuchs.de/tags/equipment/</link>
+      <link>./tags/equipment/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>test.xaverfuchs.de/tags/equipment/</guid>
+      <guid>./tags/equipment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>modding</title>
-      <link>test.xaverfuchs.de/tags/modding/</link>
+      <link>./tags/modding/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>test.xaverfuchs.de/tags/modding/</guid>
+      <guid>./tags/modding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>setup</title>
-      <link>test.xaverfuchs.de/tags/setup/</link>
+      <link>./tags/setup/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>test.xaverfuchs.de/tags/setup/</guid>
+      <guid>./tags/setup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>animation</title>
-      <link>test.xaverfuchs.de/tags/animation/</link>
+      <link>./tags/animation/</link>
       <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>test.xaverfuchs.de/tags/animation/</guid>
+      <guid>./tags/animation/</guid>
       <description></description>
     </item>
     
