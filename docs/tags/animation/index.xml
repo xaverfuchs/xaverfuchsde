@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>animation on Xaver Fuchs Research</title>
-    <link>https://xaverfuchs.github.io/xaverfuchsde/tags/animation/</link>
+    <link>test.xaverfuchs.de/tags/animation/</link>
     <description>Recent content in animation on Xaver Fuchs Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://xaverfuchs.github.io/xaverfuchsde/tags/animation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="test.xaverfuchs.de/tags/animation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Circle Animations</title>
-      <link>https://xaverfuchs.github.io/xaverfuchsde/post/2022/02/20/circleanimations/</link>
+      <link>test.xaverfuchs.de/post/2022/02/20/circleanimations/</link>
       <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://xaverfuchs.github.io/xaverfuchsde/post/2022/02/20/circleanimations/</guid>
+      <guid>test.xaverfuchs.de/post/2022/02/20/circleanimations/</guid>
       <description>Floating circles animation This is a svg-based animation that uses randomness. Circles have a random starting point when loading the page and then move in a random-walk fashion across the screen.
   //Script to randomize starting attributes function getRandomInt(min, max) { return Math.floor(Math.random() * (max - min + 1) + min); } function getRandColor(brightness){ // Six levels of brightness from 0 to 5, 0 being the darkest var rgb = [Math.</description>
     </item>
     
     <item>
       <title>Square Animations</title>
-      <link>https://xaverfuchs.github.io/xaverfuchsde/post/2022/02/02/squareanimations/</link>
+      <link>test.xaverfuchs.de/post/2022/02/02/squareanimations/</link>
       <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://xaverfuchs.github.io/xaverfuchsde/post/2022/02/02/squareanimations/</guid>
+      <guid>test.xaverfuchs.de/post/2022/02/02/squareanimations/</guid>
       <description>Square-shaped animations About these animations I created these animations using the R programming language. The animations are based on randomness. Random walks were used to create unpredictable changes in colors or of objects moving on the canvas. In some animations, I combined the R-created footage with pictures or movies that I found on the internet or recorded with my mobile phone. I started making these animations during my PhD, probably around 2013.</description>
     </item>
     

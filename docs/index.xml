@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Xaver Fuchs Research</title>
-    <link>https://xaverfuchs.github.io/xaverfuchsde/</link>
+    <link>test.xaverfuchs.de/</link>
     <description>Recent content in Home on Xaver Fuchs Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://xaverfuchs.github.io/xaverfuchsde/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="test.xaverfuchs.de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modding the Zoom B1Four Bass Multieffect Processor</title>
-      <link>https://xaverfuchs.github.io/xaverfuchsde/post/2022/10/02/modding-zoom-b1four/</link>
+      <link>test.xaverfuchs.de/post/2022/10/02/modding-zoom-b1four/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://xaverfuchs.github.io/xaverfuchsde/post/2022/10/02/modding-zoom-b1four/</guid>
+      <guid>test.xaverfuchs.de/post/2022/10/02/modding-zoom-b1four/</guid>
       <description>The Zoom B1Four The Zoom B1Four is a fantastic low budget multieffect processor for electric bass. It is packed with features like effects, amp simulations and even a looper and a drum machine. Sounds can be easily edited using a software when the pedal is connected to the computer using a USB cable. The device costs just something like 90 Euros.
 This is how it looks like.
 There is one downside to the Zoom though.</description>
@@ -20,29 +20,29 @@ There is one downside to the Zoom though.</description>
     
     <item>
       <title>Circle Animations</title>
-      <link>https://xaverfuchs.github.io/xaverfuchsde/post/2022/02/20/circleanimations/</link>
+      <link>test.xaverfuchs.de/post/2022/02/20/circleanimations/</link>
       <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://xaverfuchs.github.io/xaverfuchsde/post/2022/02/20/circleanimations/</guid>
+      <guid>test.xaverfuchs.de/post/2022/02/20/circleanimations/</guid>
       <description>Floating circles animation This is a svg-based animation that uses randomness. Circles have a random starting point when loading the page and then move in a random-walk fashion across the screen.
   //Script to randomize starting attributes function getRandomInt(min, max) { return Math.floor(Math.random() * (max - min + 1) + min); } function getRandColor(brightness){ // Six levels of brightness from 0 to 5, 0 being the darkest var rgb = [Math.</description>
     </item>
     
     <item>
       <title>Square Animations</title>
-      <link>https://xaverfuchs.github.io/xaverfuchsde/post/2022/02/02/squareanimations/</link>
+      <link>test.xaverfuchs.de/post/2022/02/02/squareanimations/</link>
       <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://xaverfuchs.github.io/xaverfuchsde/post/2022/02/02/squareanimations/</guid>
+      <guid>test.xaverfuchs.de/post/2022/02/02/squareanimations/</guid>
       <description>Square-shaped animations About these animations I created these animations using the R programming language. The animations are based on randomness. Random walks were used to create unpredictable changes in colors or of objects moving on the canvas. In some animations, I combined the R-created footage with pictures or movies that I found on the internet or recorded with my mobile phone. I started making these animations during my PhD, probably around 2013.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://xaverfuchs.github.io/xaverfuchsde/contact/</link>
+      <link>test.xaverfuchs.de/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://xaverfuchs.github.io/xaverfuchsde/contact/</guid>
+      <guid>test.xaverfuchs.de/contact/</guid>
       <description>Institution  I work at the Department of Psychology of Paris Lodron University of Salzburg, Austria. Visit the institutional homepage here: University of Salzburg
 Please get in touch by mail, using xaver.fuchs [at] plus.ac.at
 Follow me                        </description>
@@ -50,30 +50,30 @@ Follow me                        </description>
     
     <item>
       <title>Dr. Xaver Fuchs</title>
-      <link>https://xaverfuchs.github.io/xaverfuchsde/bio/</link>
+      <link>test.xaverfuchs.de/bio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://xaverfuchs.github.io/xaverfuchsde/bio/</guid>
+      <guid>test.xaverfuchs.de/bio/</guid>
       <description>About me  I am an experimental psychologist and neuroscientist. I did my PhD on phantom limbs and body perception. My main topics are perceptual and cerebral own-body representation, touch perception, and pain. I strive to learn more about human behavioral and neuroscience research in this field and beyond. My main methodological focus is on experimental design, and assessment and analysis of behavioral data using psychophysical methods.
 Apart from doing research, I am a bass player &amp;amp; musical composer as well as convinced cyclist and nature lover.</description>
     </item>
     
     <item>
       <title>Music and visuals</title>
-      <link>https://xaverfuchs.github.io/xaverfuchsde/musicandarts/</link>
+      <link>test.xaverfuchs.de/musicandarts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://xaverfuchs.github.io/xaverfuchsde/musicandarts/</guid>
+      <guid>test.xaverfuchs.de/musicandarts/</guid>
       <description>Music  I am a bass player and (occasional) composer. At the moment, I have two bands.
 Ego Super Ego Super is a psycho-rap-rock band. As the genre description suggest, the music (and lyrics) are inspired by (clinical) psychology. My band members are friends with whom I studied psychology and with whom I also played in other bands before. I am happy that we are still making music together although we unfortunately don&amp;rsquo;t live in the same city anymore.</description>
     </item>
     
     <item>
       <title>Research</title>
-      <link>https://xaverfuchs.github.io/xaverfuchsde/research/</link>
+      <link>test.xaverfuchs.de/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://xaverfuchs.github.io/xaverfuchsde/research/</guid>
+      <guid>test.xaverfuchs.de/research/</guid>
       <description>Research topics  My research is on experimental psychology and neuroscience of body representation, touch perception, and pain. My fields of research are roughly outlined in this diagram.
  Publications  The table shows a selection of publications. For a full list, visit here
   Title   Fulltext   Data     Martel, M., Fuchs, X., Trojan, J., Gockel, V., Habets, B., &amp;amp; Heed, T.</description>
