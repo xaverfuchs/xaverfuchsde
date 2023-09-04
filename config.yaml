@@ -1,0 +1,43 @@
+#baseurl: "http://xaverfuchs.de/"
+#baseurl: "/Users/xaverfuchs/Documents/Website/xaverfuchs2021Research/research4/public/"
+baseurl: "xaverfuchs.github.io/xaverfuchsde"
+languageCode: "en-us"
+title: "Xaver Fuchs Research"
+theme: "hugo-xmin"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+footnotereturnlinkcontents: "↩"
+
+permalinks:
+  note: "/note/:year/:month/:day/:slug/"
+  post: "/post/:year/:month/:day/:slug/"
+
+menu:
+  main:
+    - name: Blog/Home
+      url: ""
+      weight: 1
+    - name: Bio
+      url: "bio/"
+      weight: 2
+    - name: Research
+      url: "research/"
+      weight: 3
+    - name: Music and visuals
+      url: "musicandarts/"
+      weight: 4
+    - name: Contact/Follow
+      url: "contact/"
+      weight: 5
+
+params:
+  description: "Research website of Xaver Fuchs"
+  footer: "&copy; [Xaver Fuchs](www.xaverfuchs.de) 2021 -- {Year} | [Github](https://github.com/xaverfuchs) | [Twitter](https://twitter.com/xaverfuchs)"
+
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true

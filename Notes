@@ -1,0 +1,54 @@
+TODO
+As pictures: add psychometric curves
+Bayesian Models
+
+Find symbols in Bio / Arts for the headers
+add the nice circle animations somewhere
+remove this orcid thing
+avoid that svg is clickable, ie substitute with a jpeg
+
+pic of salzburg
+favicon
+
+CREATE Blogs
+add the inclusion animation because it is rather great
+
+add Gießkannen also the one with the inflating balloon
+
+eventuell doch wieder die Tags und Categories ins Menu?
+
+Write a workflow for synchronization. 
+--> i do that with free file sync. and there is a settings file. 
+
+
+REMEMBER
+- created a shortcode for share this page on tiwtter called {{< share_twitter >}}
+- remember that there is a bunch of built in shortcodes, for example to embed twwets
+{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
+- ich habe in den footer und header und auch in der style css ein bisschen customised und auch ein paar Funktioen hinzugefügt
+
+
+<!-- Section with  -->
+
+<script>
+var anim_abstract = ['../animations/abstract/20120824-2355_series2.mp4', 
+'../animations/abstract/20120824-2356_series3.mp4', 
+'../animations/abstract/20120824-2357_series4.mp4', 
+'../animations/abstract/20120824-2357_series5.mp4',
+'../animations/abstract/20120825-0000_series6.mp4'];
+
+      anim_abstract.sort(function (a, b) {
+      return Math.random() > 0.5 ? -1 : 1;
+      });
+
+      var curVideo_01 = 0;
+      var videoPlayer_01 = document.getElementById('videoplayer_anim_abstract');
+
+      videoPlayer_01.onended = function(){
+  		    ++curVideo_01;
+          if(curVideo_01 < anim_abstract.length){
+        videoPlayer_01.src = anim_abstract[curVideo_01];
+      }
+  }
+</script>
+

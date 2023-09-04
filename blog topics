@@ -1,0 +1,318 @@
+Things to blog about
+====================
+
+Simulations of psychometric functions
+
+Simulations: Anova and bimodal distribution
+
+Robot Gießkanne project
+
+get back movie
+
+
+
+<table style="width: 100%; border: none; background: white;">
+  <tr style="background: white;">
+  <td style="align: center; vertical-align: center; padding-bottom: 0px;">
+    <video width="400" height="400" id=videoPlayer_abstract autoplay>
+      <source src="http://xaverfuchs.de/posterPanels/abstract3.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video> 
+  <td style="align: center; vertical-align: center; padding-bottom: 0px;">
+    <video width="400" height="400" id=videoPlayer_life autoplay>
+        <source src="http://xaverfuchs.de/posterPanels/life3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video> 
+  </tr>
+  
+  <tr style="background: white;">
+  <td style="align: center; vertical-align: center; padding-top: 0px;">
+    <video width="400" height="400" id=videoPlayer_mysterious autoplay>
+      <source src="http://xaverfuchs.de/posterPanels/mysterious3.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video> 
+  <td style="align: center; vertical-align: center; padding-top: 0px;">
+    <video width="400" height="400" id=videoPlayer_peopleanimals autoplay>
+        <source src="http://xaverfuchs.de/posterPanels/peopleanimals3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video> 
+  </tr>
+  
+</table>  
+    
+
+
+<!-- XXXX Section with lists of videos for the series XXXX -->
+
+<!-- abstract series -->
+<script>
+  var nextVideo_abstract = [
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/scaled/20120824-2355_series2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120824-2355_series2.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120824-2356_series3.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120824-2357_series4.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120824-2357_series5.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-0000_series6.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-0001_series7.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-0005_series7.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-0057_series_complx1.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-0059_series_complx1.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-0103_series_complx2.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-0105_series_complx3.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-0108_series_complx4.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-0117_series_complx5.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-0119_series_complx6.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-0125_series_complx7.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-0132_series_complx8.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-0135_series_complx9.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-0143_series_complx10.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-1947_series_complx11.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-1958_series_complx12.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-2014_series_complx13.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-2021_series_complx14.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-2022_series_complx15.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-2024_series_complx16.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-2026_series_complx17.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120825-2056_series_complx18.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120920-0045_series_complx19.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120920-0048_series_complx19.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120920-0106_series_complx20.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120920-0143_series_complx21.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120923-1737_red-ish_stripy.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120923-1756_green-ish_stripy.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120927-0024_series_complx22.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120927-0034_series_complx23.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120929-2122_series_complx24.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120929-2125_series_complx25.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120929-2130_series_complx26.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120930-0130_series_complx27.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20120930-0138_series_complx29.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121015-2237_PrepDogBG.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121015-2239_PrepDogBG.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121025-2317_series_complx30.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121025-2325_series_complx31.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121025-2334_series_complx32.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121025-2338_series_complx33.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121025-2346_series_complx34.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121025-2357_series_complx35.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121026-0000_series_complx36.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121026-0003_series_complx37.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121026-0005_series_complx38.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121026-0008_series_complx39.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121026-0028_series_complx40.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121026-0034_series_complx41.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121026-0125_series_complx42.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121026-0126_series_complx43.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121228-1954_Dreiecke1.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-0107_cobino11.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-0121_DynamicRandomWalkPC16.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-0124_DynamicRandomWalkPC5.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-0125_DynamicRandomWalkPC7.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-0128_RandomWalkPC1.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-0129_RandomWalkPC2.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-0130_RandomWalkPC5.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-0131_RandomWalkPC6.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-0135_cobino10.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-0135_cobino11.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-0137_cobino3.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-0139_cobino7.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-0139_cobino8.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-1151_DynamicRandomWalkPC17.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-1200_cobino14.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-1202_DynamicRandomWalkPC18.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-1212_Dreiecke4.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-1224_DynamicRandomWalkPC19.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-1236_KrEiseDrEiecke1.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-1243_cobino15.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-1254_KrEiseDrEiecke2.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20121230-1423_cobino16.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20130106-1746_cobino20.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20130106-1756_cobino21.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20130106-1810_DynamicRandomWalkPC20.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20130106-1918_DynamicRandomWalkPC21.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/abstract/orig/20130106-2111_DynamicRandomWalkPC22.mp4'
+  ];
+
+  nextVideo_abstract.sort(function (a, b) {
+    return Math.random() > 0.5 ? -1 : 1;
+  });
+
+  var curVideo_abstract = 0;
+  var videoPlayer_abstract = document.getElementById('videoPlayer_abstract');
+
+  videoPlayer_abstract.onended = function(){
+	    ++curVideo_abstract;
+      if(curVideo_abstract < nextVideo_abstract.length){
+    videoPlayer_abstract.src = nextVideo_abstract[curVideo_abstract];
+    }
+  }
+</script>
+
+<!-- life series -->
+<script>
+  var nextVideo_life = [
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20120923-0013_Lamp1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20120923-0020_Lamp2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20120923-0030_Lamp3_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20120924-0031_MartaBikeParis1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20120924-0040_MartaBikeParis2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20120924-0045_MartaBikeParis3_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20120924-0052_MartaBikeParis5_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20120924-0115_MartaBikeParis7_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20120924-0124_MartaBikeParis6_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20120924-0131_MartaBikeParis4_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20121230-0135_Marta1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20121230-0142_Marta2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20121230-0155_Marta3_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20121230-0209_Xaver1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20121230-0232_MartaBike3_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20121230-0243_MartaBike4_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130110-2352_MALUBrue1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130111-0006_MALUBrue3_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130111-0036_MALUBrue6_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130111-0042_MALUBrue5_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130111-0057_MALUBrue7_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130111-0142_MALUBrue8_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130113-2044_MAVerkehr3_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130113-2052_MAVerkehr2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130113-2059_MAVerkehr4_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130113-2111_MAVerkehr5_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130113-2132_WunderK1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130113-2142_WunderK2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130203-1753_FerroVia1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130203-1813_FerroVia2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130203-1815_Origami11_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130203-1849_Origami12_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130203-1932_Cones11_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130203-1949_Cones12_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130203-2001_Cones21_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/life/scaled/20130203-2026_Cones31_scaled.mp4'
+  ];
+
+  nextVideo_life.sort(function (a, b) {
+    return Math.random() > 0.5 ? -1 : 1;
+  });
+
+  var curVideo_life = 0;
+  var videoPlayer_life = document.getElementById('videoPlayer_life');
+
+  videoPlayer_life.onended = function(){
+	    ++curVideo_life;
+      if(curVideo_life < nextVideo_life.length){
+    videoPlayer_life.src = nextVideo_life[curVideo_life];
+    }
+  }
+</script>
+
+
+
+<!-- mysterious series -->
+<script>
+  var nextVideo_mysterious = [
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20120923-1526_MixedCumSimpleColors2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20120923-1534_MixedCumSimpleColors4_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20120923-1538_MixedCumSimpleColors6_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20120925-2220_Roger_KloZwerg1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20120925-2223_Roger_KloZwerg2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20120925-2227_Roger_KloZwerg3_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20120925-2230_Roger_KloZwerg4_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20120925-2246_Roger_KloZwerg5_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20120927-0037_Roger_KloZwerg6_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20120927-2217_MysteriousBob1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20120927-2223_MysteriousBob2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20120927-2225_MysteriousBob2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20120927-2228_MysteriousBob3_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20120927-2234_MysteriousBob4_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130106-2146_CatPorn1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130106-2211_CatPorn2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130106-2229_Squash1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130106-2239_Squash2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130106-2357_Squash4_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130107-0006_Squash3_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130107-0032_Shot2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130108-2355_Talk2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130109-0024_Talk3_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130109-0025_Talk3_slow_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130109-0040_Talk4_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130109-2344_Talk5_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130110-0029_Squash7_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130110-0102_Squash10_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130113-2014_Squash5c_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130113-2128_Dampfkessel1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130113-2201_FaceRome1b_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130113-2249_FaceRome2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130117-2325_Shampoo1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/20130117-2333_Shampoo2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/mysterious/scaled/lamp5_20fps_scaled.mp4'
+
+  ];
+
+  nextVideo_mysterious.sort(function (a, b) {
+    return Math.random() > 0.5 ? -1 : 1;
+  });
+
+  var curVideo_mysterious = 0;
+  var videoPlayer_mysterious = document.getElementById('videoPlayer_mysterious');
+
+  videoPlayer_mysterious.onended = function(){
+	    ++curVideo_mysterious;
+      if(curVideo_mysterious < nextVideo_mysterious.length){
+    videoPlayer_mysterious.src = nextVideo_mysterious[curVideo_mysterious];
+    }
+  }
+</script>
+
+
+
+<!-- people&animals series -->
+<script>
+  var nextVideo_peopleanimals = [
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20121015-2158_morphdogs1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20121015-2225_morphdogs2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20121015-2244_DOG1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20121015-2250_DOG2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20121015-2320_DOG3_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20121022-2133_morph2dogs_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20121026-0053_OutFrames1_noisy_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20121026-0059_FishInWater1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20121026-0106_FishInWater1_2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20121026-0111_FishInWater1_3_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20121026-0130_FishInWater2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20121026-0132_FishInWater2_2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20121026-0202_FishInWater2_3_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20130118-0015_fIsH1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20130203-1519_Hare1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20130203-1524_Hare1_noisy_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20130203-1529_Hare2_noisy_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20130203-1536_Hare2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20130203-1629_fIsH2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20130203-1651_Hare12_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20130203-1655_Hare13_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20130203-1700_Hare11_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20130203-1721_Hare21_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20130203-1728_Hare22_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/20130203-1731_Hare23_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/Kofi_out_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/kofi2_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/out_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/Studiobraun1_scaled.mp4', 
+  'http://xaverfuchs.de/Anims_sorted_scaled/people&animals/scaled/studiobraun2_scaled.mp4'
+  ];
+
+  nextVideo_peopleanimals.sort(function (a, b) {
+    return Math.random() > 0.5 ? -1 : 1;
+  });
+
+  var curVideo_peopleanimals = 0;
+  var videoPlayer_peopleanimals = document.getElementById('videoPlayer_peopleanimals');
+
+  videoPlayer_peopleanimals.onended = function(){
+	    ++curVideo_peopleanimals;
+      if(curVideo_peopleanimals < nextVideo_peopleanimals.length){
+    videoPlayer_peopleanimals.src = nextVideo_peopleanimals[curVideo_peopleanimals];
+    }
+  }
+</script>
+
+
+

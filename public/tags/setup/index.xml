@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>setup on Xaver Fuchs Research</title>
+    <link>xaverfuchs.github.io/xaverfuchsde/tags/setup/</link>
+    <description>Recent content in setup on Xaver Fuchs Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="xaverfuchs.github.io/xaverfuchsde/tags/setup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modding the Zoom B1Four Bass Multieffect Processor</title>
+      <link>xaverfuchs.github.io/xaverfuchsde/post/2022/10/02/modding-zoom-b1four/</link>
+      <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>xaverfuchs.github.io/xaverfuchsde/post/2022/10/02/modding-zoom-b1four/</guid>
+      <description>The Zoom B1Four The Zoom B1Four is a fantastic low budget multieffect processor for electric bass. It is packed with features like effects, amp simulations and even a looper and a drum machine. Sounds can be easily edited using a software when the pedal is connected to the computer using a USB cable. The device costs just something like 90 Euros.
+This is how it looks like.
+There is one downside to the Zoom though.</description>
+    </item>
+    
+  </channel>
+</rss>
