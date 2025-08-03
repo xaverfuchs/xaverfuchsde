@@ -16,25 +16,25 @@ permalinks:
 
 menu:
   main:
-    - name: Blog/Home
+    - name: Home
       url: ""
       weight: 1
     - name: Bio
       url: "bio/"
       weight: 2
+    - name: Blog
+      url: "blog/"
+      weight: 3
     - name: Research
       url: "research/"
-      weight: 3
+      weight: 4
     - name: Music and visuals
       url: "musicandarts/"
-      weight: 4
-    - name: Contact/Follow
-      url: "contact/"
       weight: 5
 
 params:
   description: "Research website of Xaver Fuchs"
-  footer: "&copy; [Xaver Fuchs](www.xaverfuchs.de) 2021 -- {Year} | [Github](https://github.com/xaverfuchs) | [Twitter](https://twitter.com/xaverfuchs)"
+  footer: "&copy; [Xaver Fuchs](www.xaverfuchs.de) 2021 -- {Year} | [Github](https://github.com/xaverfuchs) | [Bluesky](https://bsky.app/profile/xaverfuchs.bsky.social)"
 
 markup:
   highlight:

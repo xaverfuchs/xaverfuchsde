@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>./blog/</loc>
+    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>./categories/</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,13 +17,10 @@
     <loc>./tags/modding/</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>./post/2022/10/02/modding-zoom-b1four/</loc>
+    <loc>./blog/modding-zoom-b1four/</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>./categories/music/</loc>
-    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>./post/</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>./tags/setup/</loc>
@@ -35,10 +35,10 @@
     <loc>./categories/art/</loc>
     <lastmod>2022-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>./post/2022/02/20/circleanimations/</loc>
+    <loc>./blog/2022-02-11-circleanimations/circleanimations/</loc>
     <lastmod>2022-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>./post/2022/02/02/squareanimations/</loc>
+    <loc>./blog/2022-02-02-squareanimations/squareanimations/</loc>
     <lastmod>2022-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>./contact/</loc>

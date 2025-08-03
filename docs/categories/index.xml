@@ -4,26 +4,23 @@
     <title>Categories on Xaver Fuchs Research</title>
     <link>./categories/</link>
     <description>Recent content in Categories on Xaver Fuchs Research</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="./categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="./categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>music</title>
+      <title>Music</title>
       <link>./categories/music/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>./categories/music/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>art</title>
+      <title>Art</title>
       <link>./categories/art/</link>
       <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>./categories/art/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

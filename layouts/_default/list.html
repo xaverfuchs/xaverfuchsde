@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+{{if not .IsHome }}
+<h1>{{ .Title | markdownify }}</h1>
+{{ end }}
+
+{{ .Content }}
+
+<ul>
+  {{ if eq .Section "blog" }}
+    {{ range .Pages }}
+      <li>
+        <span class="date">{{ .Date.Format "2006/01/02" }}</span>
+        <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>
+
+
+{{ partial "footer.html" . }}

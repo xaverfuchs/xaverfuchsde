@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modding the Zoom B1Four Bass Multieffect Processor | Xaver Fuchs Research</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css"
+  integrity="…" crossorigin="anonymous">
+  
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/solid.min.css"
+  integrity="…" crossorigin="anonymous">
+
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/./">Home</a></li>
+      
+      <li><a href="/bio/">Bio</a></li>
+      
+      <li><a href="/blog/">Blog</a></li>
+      
+      <li><a href="/research/">Research</a></li>
+      
+      <li><a href="/musicandarts/">Music and visuals</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+    
+
+<div class="article-meta">
+<h1><span class="title">Modding the Zoom B1Four Bass Multieffect Processor</span></h1>
+<h2 class="author">Xaver Fuchs</h2>
+<h2 class="date">2022/10/02</h2>
+</div>
+
+<main>
+<h2 id="the-zoom-b1four">The Zoom B1Four</h2>
+<p>The Zoom B1Four is a fantastic low budget multieffect processor for electric bass.
+It is packed with features like effects, amp simulations and even a looper and a drum machine. Sounds can be easily edited using a software when the pedal is connected to the computer using a USB cable.
+The device costs just something like 90 Euros.</p>
+<p>This is how it looks like.</p>
+<p><img src="zoompix/01.JPG" alt="Zoom"></p>
+<p>There is one downside to the Zoom though. As can be seen on the picture, there are only two buttons that are meant to be used by the feet, the rest are buttons to tap with the finger.</p>
+<h2 id="modifying-the-zoom-to-control-finger-buttons-by-foot">Modifying the Zoom to control finger buttons by foot</h2>
+<h3 id="finger-buttons-need-to-be-used-to-swith-onoff-effects-in-the-chain">Finger buttons need to be used to swith on/off effects in the chain</h3>
+<p>The two foot buttons are there to toggle between patches (sounds), one to go one up, the other to go one down. In the rhythm, looper, or edit mode they have different functions. If you are familiar with multieffect devices, the Zoom will be quite intuitive in a sense that it stores patches that consist of a chain of effects. One functionality that many multieffect devices have is that you simply turn on or off single effects of the chain. This way you can already play different sounds without actually changing the patch. The zoom can link up to five effects in one patch and the effects are turned on and off with the buttons number 1-5 (in edit mode). Let&rsquo;s say you have an effect that has a compressor on chain position 1, a distortion on position 2 and then a reverb on position 3. If you want to play the sound without reverb you need to enter edit more (using the top left button) and then press button 3 to turn reverb on/off.</p>
+<p>This is quite a limitation in a live setup because, playing bass, you rarely have a hand free to press a button. This means you cannot simply enter the edit mode and then press button 3 (in our example to switch of the reverb effect).</p>
+<h3 id="opening-the-device-and-finding-the-right-wires">Opening the device and finding the right wires</h3>
+<p>To overcome this limitation and make the device more useful in a playing situation, I opened the casing to find out how the buttons are wired.
+Opening it is easy, you simple need to open the four screws on the bottom side and then lift the grey metal cover gently with a screwdriver starting at the side of the battery case (there is little ditch where the screwdriver needs to be placed).</p>
+<p>Once opened, it is obvious that the PCB is actually quite spacious and it is really easy to see where the buttons are wired to.</p>
+<p><img src="zoompix/02.JPG" alt="Zoom Inside"></p>
+<p>As the picture shows, the buttons&rsquo; pins end up in the PCB just opposite of the respective buttons, so it is quite simple to understand. Also they are soldered into the board in a way that there is is still lots of space around them and the contact itself is also fairly large so it is very easy to solder an additional cable to it (see below). This makes the Zoom super hackable. Great!</p>
+<h3 id="testing-the-button-functionality">Testing the button functionality</h3>
+<p>Using a multimeter, it can easily be figured out how the switching works. When you meausure the voltage between the two pins of one button, there is (if I remember correctly) a voltage difference of 3.3V between the two pins. When using the beep-function of the multimeter it can be figured out, that one of the pins is ground because the ground of all the buttons are interconnected (i.e., the multimeter beeps when holding it to two pins that are connected via ground). So the buttons seem to have a pull-down logic functionality: one pin is at 3.3V and the other on ground and when the button is pressed the 3.3V are being connected to ground, the 3.3V turn to zero and this way the button press is registered by the controller. This can be verified by connecting the two pins of on the back of the PCB belonging to one button using a jumper wire. When doing that, it is like when pressing the button on the front side: the device reacts.
+That&rsquo;s good news because it means that any additional button that shortcuts the two pins can be attached.</p>
+<p>I noticed two peculiarities in the button wiring that are important to know:</p>
+<ol>
+<li>For whatever reason, which pin (left or right) is ground and which is positive is not the same for all buttons. Sometimes it is the one way around, sometimes the other. You need to measure it for every button individually.</li>
+<li>All grounds are connected except for the &ldquo;settings&rdquo; button. However, the device did not bother that I connected it to the common ground so it does not seem to matter (I hope).</li>
+</ol>
+<h3 id="creating-an-opening-for-cables-of-the-footswitch">Creating an opening for cables of the footswitch</h3>
+<p>Next, I drilled a whole in the plastic case for the cable. I chose a position at the back part of the device between the 6.3mm &ldquo;Input&rdquo; connected and the 3.5mm &ldquo;Aux in&rdquo; in. But it could also be positioned somewhere else.</p>
+<p><img src="zoompix/03.JPG" alt="Cable in"></p>
+<p>As I wanted to connect all 11 buttons to footswitches, I used two cables each containing 6 lines.</p>
+<p><img src="zoompix/04.JPG" alt="Cables"></p>
+<h3 id="wiring-scheme">Wiring scheme</h3>
+<p>Then I decided for a wiring scheme. This is, of course, arbitrary and depends on the way one wants to assign buttons to functions.
+I have a custom built footswitch already that has 14 buttons in total, arranged in two rows.
+In my button bar, the front row are (from left to right) buttons 1-7 and the back row 8-14.</p>
+<p><img src="zoompix/05.JPG" alt="Footswitch bar"></p>
+<p>Don&rsquo;t get confused by the labels, they belong to a different application. The 14 buttons here are all wired to channels 1-14 of a DSUB-15 connector (on the right side of the bar) and the ground goes to pin 15.</p>
+<p>Then I decided which button should control which function of the Zoom B1Four.
+I decided for the following:</p>
+<ul>
+<li>Button 1-5 of the front row will control the buttons 1-5 of the Zoom, which are used to toggle on/off effects of the chain (in edit mode)</li>
+<li>Button 6 &amp; 7 should control up and down (switching patches)</li>
+<li>Button 1 of the back row (effectively button 8 of the bar) should start &ldquo;edit&rdquo;&quot; mode</li>
+<li>Button 2 of the back row the &ldquo;settings&rdquo; button</li>
+<li>Button 3 of the back row the rhythm function</li>
+<li>Button 4 of the back row the looper function</li>
+</ul>
+<p>I then used one of the six-line cables to connect buttons 1-5 of the front row and the remaining line for ground.
+Of the second cable I connected 6 &amp; 7 of the front rwo and the 4 buttons of the back row.</p>
+<h3 id="soldering-the-cables">Soldering the cables</h3>
+<p>First I soldered all the cables to a DSUB-15 connector. To avoid mistakes, it makes sense to come up with a mapping of colors to lines, which is, again, arbitrary but useful so things don&rsquo;t get messed up.</p>
+<p><img src="zoompix/06.JPG" alt="DSUB soldering"></p>
+<p>Then I lead the cables through the hole and soldered them to the PCB.</p>
+<p><img src="zoompix/07.JPG" alt="Zoom soldering"></p>
+<p>I took ground from the button 5, but it does not matter, ground is ground.</p>
+<h3 id="closing-the-device">Closing the device</h3>
+<p>After closing the device again the footswitch can be connected to the DSUB connector.</p>
+<p><img src="zoompix/08.JPG" alt="Device done"></p>
+<h2 id="testing-the-functionality">Testing the functionality</h2>
+<p>After having reassembled the device it is time to test the setup.</p>
+<p>This is how it looks like, once it is wired.</p>
+<p><img src="zoompix/09.JPG" alt="Setup"></p>
+<h3 id="video-of-functions">Video of functions</h3>
+<p>In this quick video it can be seen that all buttons do what they are supposed to.
+All works!</p>
+ <video width="640" height="360" controls>
+  <source src="zoompix/10.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
+
+</main>
+
+  <footer>
+  <script defer src="//yihui.org/js/math-code.js"></script>
+<script defer src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script defer src="//yihui.org/js/center-img.js"></script>
+
+
+
+  
+  <hr/>
+  © <a href="www.xaverfuchs.de">Xaver Fuchs</a> 2021 &ndash; 2025 | <a href="https://github.com/xaverfuchs">Github</a> | <a href="https://twitter.com/xaverfuchs">Twitter</a>
+  
+  </footer>
+  </body>
+</html>
+

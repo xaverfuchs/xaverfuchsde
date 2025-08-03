@@ -1,0 +1,8 @@
+<p>Debug: Found {{ len (where .Site.RegularPages "Section" "blog") }} posts in the blog section.</p>
+<ul>
+  {{ range where .Site.RegularPages "Section" "blog" }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Date.Format "2006-01-02" }}
+    </li>
+  {{ end }}
+</ul>

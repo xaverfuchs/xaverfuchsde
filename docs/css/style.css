@@ -101,5 +101,16 @@ th, td {
 
 /* some costom functions */
 
+.share-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.2s ease;
+  vertical-align: middle;
+}
+
+.share-icon:hover {
+  opacity: 0.7;
+}
 
 
