@@ -8,7 +8,7 @@ title: Home
 </figure>
 
 
-# Xaver Fuchs 
+# Xaver Fuchs 🦊
 Welcome to my website. 
 
 
@@ -23,12 +23,12 @@ Visit the institutional homepages here:
 - [University of Salzburg](www.plus.ac.at)
 - [CCNS](https://ccns.plus.ac.at/labs/reachandtouch/members/)
 
-## Musical Activity
+## Musical Activity <i class="fa-solid fa-music" style="font-size:120%; color:limegreen;"></i>
 See the dedicated section on [this page](./musicandarts/).
 Otherwise, most can be found here on the website of my label [quadratisch rekords](http://www.quadratisch-rekords.de).
 
 
-## Contact & follow me
+## Contact & follow me <i class="fa-solid fa-hashtag" style="font-size:120%; color:limegreen;"></i>
 Please get in touch by mail, using **xfuchs [at] gmx.de**
 
 <table style="width: 100%; border: none">
