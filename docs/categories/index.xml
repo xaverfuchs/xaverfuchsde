@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Xaver Fuchs Research</title>
-    <link>./categories/</link>
+    <link>https://xaverfuchs.github.io/xaverfuchsde/categories/</link>
     <description>Recent content in Categories on Xaver Fuchs Research</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="./categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://xaverfuchs.github.io/xaverfuchsde/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Music</title>
-      <link>./categories/music/</link>
+      <link>https://xaverfuchs.github.io/xaverfuchsde/categories/music/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>./categories/music/</guid>
+      <guid>https://xaverfuchs.github.io/xaverfuchsde/categories/music/</guid>
       <description></description>
     </item>
     <item>
       <title>Art</title>
-      <link>./categories/art/</link>
+      <link>https://xaverfuchs.github.io/xaverfuchsde/categories/art/</link>
       <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>./categories/art/</guid>
+      <guid>https://xaverfuchs.github.io/xaverfuchsde/categories/art/</guid>
       <description></description>
     </item>
   </channel>
