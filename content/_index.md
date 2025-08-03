@@ -3,13 +3,14 @@ title: Home
 ---
 
 <figure style="max-width:25%; min-width:40px; float:right; text-align:center;">
-  <img src="../img/Xaver2022_small.jpg" style="width:100%; aspect-ratio:1/1; border-radius:50%; object-fit:cover;">
+  <img src="./img/Xaver2022_small.jpg" style="width:100%; aspect-ratio:1/1; border-radius:50%; object-fit:cover;">
   <figcaption style="font-style:italic;">Dr. Xaver Fuchs - psychologist, researcher, musician</figcaption>
 </figure>
 
 
 # Xaver Fuchs 
 Welcome to my website. 
+
 
 Below, you find sort of a "linktree" that directs you places where you can find stuff.
 
