@@ -1,7 +1,9 @@
 #baseurl: "http://xaverfuchs.de/"
-#baseurl: "/Users/xaverfuchs/Documents/Website/xaverfuchs2021Research/research4/public/"
+#baseurl: "/Users/xaverfuchs/Documents/Website/xaverfuchs2021Research/xaverfuchsde/docs/"
 #baseurl: "./"
 baseurl: "https://xaverfuchs.github.io/xaverfuchsde/"
+relativeURLs: false
+canonifyURLs: true
 publishDir: "./docs"
 languageCode: "en-us"
 title: "Xaver Fuchs Research"
