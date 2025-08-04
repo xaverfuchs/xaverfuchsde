@@ -31,7 +31,7 @@ menu:
     - name: Research
       url: "research/"
       weight: 4
-    - name: Music and visuals
+    - name: Music
       url: "musicandarts/"
       weight: 5
 
