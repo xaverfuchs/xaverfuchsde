@@ -2,7 +2,7 @@
 #baseurl: "/Users/xaverfuchs/Documents/Website/xaverfuchs2021Research/xaverfuchsde/docs/"
 #baseurl: "./"
 baseurl: "https://xaverfuchs.github.io/xaverfuchsde/"
-relativeURLs: false
+relativeURLs: true
 canonifyURLs: true
 publishDir: "./docs"
 languageCode: "en-us"

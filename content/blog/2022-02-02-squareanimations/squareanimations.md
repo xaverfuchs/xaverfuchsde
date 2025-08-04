@@ -55,278 +55,269 @@ In case you don't see any animations here, it could be due to the browser settin
 <!-- XXXX Section with lists of videos for the series XXXX -->
 
 <!-- abstract series -->
-document.addEventListener("DOMContentLoaded", function() {
-  <script>
-    var nextVideo_abstract = [
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120824-2355_series2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120824-2355_series2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120824-2356_series3_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120824-2357_series4_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120824-2357_series5_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0000_series6_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0001_series7_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0005_series7_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0057_series_complx1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0059_series_complx1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0103_series_complx2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0105_series_complx3_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0108_series_complx4_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0117_series_complx5_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0119_series_complx6_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0125_series_complx7_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0132_series_complx8_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0135_series_complx9_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0143_series_complx10_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-1947_series_complx11_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-1958_series_complx12_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-2014_series_complx13_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-2021_series_complx14_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-2022_series_complx15_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-2024_series_complx16_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-2026_series_complx17_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-2056_series_complx18_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120920-0045_series_complx19_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120920-0048_series_complx19_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120920-0106_series_complx20_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120920-0143_series_complx21_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120923-1737_red-ish_stripy_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120923-1756_green-ish_stripy_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120927-0024_series_complx22_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120927-0034_series_complx23_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120929-2122_series_complx24_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120929-2125_series_complx25_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120929-2130_series_complx26_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120930-0130_series_complx27_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120930-0138_series_complx29_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121015-2237_PrepDogBG_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121015-2239_PrepDogBG_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121025-2317_series_complx30_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121025-2325_series_complx31_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121025-2334_series_complx32_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121025-2338_series_complx33_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121025-2346_series_complx34_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121025-2357_series_complx35_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121026-0000_series_complx36_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121026-0003_series_complx37_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121026-0005_series_complx38_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121026-0008_series_complx39_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121026-0028_series_complx40_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121026-0034_series_complx41_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121026-0125_series_complx42_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121026-0126_series_complx43_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121228-1954_Dreiecke1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0107_cobino11_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0121_DynamicRandomWalkPC16_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0124_DynamicRandomWalkPC5_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0125_DynamicRandomWalkPC7_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0128_RandomWalkPC1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0129_RandomWalkPC2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0130_RandomWalkPC5_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0131_RandomWalkPC6_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0135_cobino10_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0135_cobino11_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0137_cobino3_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0139_cobino7_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0139_cobino8_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1151_DynamicRandomWalkPC17_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1200_cobino14_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1202_DynamicRandomWalkPC18_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1212_Dreiecke4_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1224_DynamicRandomWalkPC19_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1236_KrEiseDrEiecke1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1243_cobino15_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1254_KrEiseDrEiecke2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1423_cobino16_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20130106-1746_cobino20_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20130106-1756_cobino21_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20130106-1810_DynamicRandomWalkPC20_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20130106-1918_DynamicRandomWalkPC21_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20130106-2111_DynamicRandomWalkPC22_scaled.mp4'
-    ];
-  
-    nextVideo_abstract.sort(function (a, b) {
-      return Math.random() > 0.5 ? -1 : 1;
-    });
-  
-    var curVideo_abstract = 0;
-    var videoPlayer_abstract = document.getElementById('videoPlayer_abstract');
-  
-    videoPlayer_abstract.onended = function(){
-  	    ++curVideo_abstract;
-        if(curVideo_abstract < nextVideo_abstract.length){
-      videoPlayer_abstract.src = nextVideo_abstract[curVideo_abstract];
-      }
+
+<script>
+  var nextVideo_abstract = [
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120824-2355_series2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120824-2355_series2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120824-2356_series3_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120824-2357_series4_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120824-2357_series5_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0000_series6_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0001_series7_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0005_series7_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0057_series_complx1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0059_series_complx1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0103_series_complx2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0105_series_complx3_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0108_series_complx4_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0117_series_complx5_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0119_series_complx6_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0125_series_complx7_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0132_series_complx8_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0135_series_complx9_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-0143_series_complx10_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-1947_series_complx11_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-1958_series_complx12_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-2014_series_complx13_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-2021_series_complx14_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-2022_series_complx15_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-2024_series_complx16_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-2026_series_complx17_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120825-2056_series_complx18_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120920-0045_series_complx19_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120920-0048_series_complx19_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120920-0106_series_complx20_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120920-0143_series_complx21_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120923-1737_red-ish_stripy_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120923-1756_green-ish_stripy_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120927-0024_series_complx22_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120927-0034_series_complx23_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120929-2122_series_complx24_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120929-2125_series_complx25_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120929-2130_series_complx26_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120930-0130_series_complx27_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20120930-0138_series_complx29_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121015-2237_PrepDogBG_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121015-2239_PrepDogBG_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121025-2317_series_complx30_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121025-2325_series_complx31_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121025-2334_series_complx32_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121025-2338_series_complx33_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121025-2346_series_complx34_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121025-2357_series_complx35_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121026-0000_series_complx36_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121026-0003_series_complx37_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121026-0005_series_complx38_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121026-0008_series_complx39_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121026-0028_series_complx40_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121026-0034_series_complx41_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121026-0125_series_complx42_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121026-0126_series_complx43_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121228-1954_Dreiecke1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0107_cobino11_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0121_DynamicRandomWalkPC16_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0124_DynamicRandomWalkPC5_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0125_DynamicRandomWalkPC7_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0128_RandomWalkPC1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0129_RandomWalkPC2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0130_RandomWalkPC5_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0131_RandomWalkPC6_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0135_cobino10_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0135_cobino11_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0137_cobino3_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0139_cobino7_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-0139_cobino8_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1151_DynamicRandomWalkPC17_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1200_cobino14_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1202_DynamicRandomWalkPC18_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1212_Dreiecke4_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1224_DynamicRandomWalkPC19_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1236_KrEiseDrEiecke1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1243_cobino15_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1254_KrEiseDrEiecke2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20121230-1423_cobino16_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20130106-1746_cobino20_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20130106-1756_cobino21_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20130106-1810_DynamicRandomWalkPC20_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20130106-1918_DynamicRandomWalkPC21_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/abstract/scaled/20130106-2111_DynamicRandomWalkPC22_scaled.mp4'
+  ];
+
+  nextVideo_abstract.sort(function (a, b) {
+    return Math.random() > 0.5 ? -1 : 1;
+  });
+
+  var curVideo_abstract = 0;
+  var videoPlayer_abstract = document.getElementById('videoPlayer_abstract');
+
+  videoPlayer_abstract.onended = function(){
+	    ++curVideo_abstract;
+      if(curVideo_abstract < nextVideo_abstract.length){
+    videoPlayer_abstract.src = nextVideo_abstract[curVideo_abstract];
     }
-  </script>
-  
-  <!-- life series -->
-  <script>
-    var nextVideo_life = [
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120923-0013_Lamp1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120923-0020_Lamp2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120923-0030_Lamp3_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120924-0031_MartaBikeParis1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120924-0040_MartaBikeParis2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120924-0045_MartaBikeParis3_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120924-0052_MartaBikeParis5_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120924-0115_MartaBikeParis7_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120924-0124_MartaBikeParis6_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120924-0131_MartaBikeParis4_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20121230-0135_Marta1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20121230-0142_Marta2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20121230-0155_Marta3_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20121230-0209_Xaver1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20121230-0232_MartaBike3_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20121230-0243_MartaBike4_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130110-2352_MALUBrue1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130111-0006_MALUBrue3_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130111-0036_MALUBrue6_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130111-0042_MALUBrue5_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130111-0057_MALUBrue7_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130111-0142_MALUBrue8_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130113-2044_MAVerkehr3_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130113-2052_MAVerkehr2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130113-2059_MAVerkehr4_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130113-2111_MAVerkehr5_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130113-2132_WunderK1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130113-2142_WunderK2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130203-1753_FerroVia1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130203-1813_FerroVia2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130203-1815_Origami11_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130203-1849_Origami12_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130203-1932_Cones11_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130203-1949_Cones12_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130203-2001_Cones21_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130203-2026_Cones31_scaled.mp4'
-    ];
-  
-    nextVideo_life.sort(function (a, b) {
-      return Math.random() > 0.5 ? -1 : 1;
-    });
-  
-    var curVideo_life = 0;
-    var videoPlayer_life = document.getElementById('videoPlayer_life');
-  
-    videoPlayer_life.onended = function(){
-  	    ++curVideo_life;
-        if(curVideo_life < nextVideo_life.length){
-      videoPlayer_life.src = nextVideo_life[curVideo_life];
-      }
+  }
+</script>
+
+<!-- life series -->
+<script>
+  var nextVideo_life = [
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120923-0013_Lamp1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120923-0020_Lamp2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120923-0030_Lamp3_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120924-0031_MartaBikeParis1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120924-0040_MartaBikeParis2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120924-0045_MartaBikeParis3_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120924-0052_MartaBikeParis5_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120924-0115_MartaBikeParis7_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120924-0124_MartaBikeParis6_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20120924-0131_MartaBikeParis4_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20121230-0135_Marta1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20121230-0142_Marta2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20121230-0155_Marta3_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20121230-0209_Xaver1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20121230-0232_MartaBike3_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20121230-0243_MartaBike4_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130110-2352_MALUBrue1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130111-0006_MALUBrue3_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130111-0036_MALUBrue6_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130111-0042_MALUBrue5_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130111-0057_MALUBrue7_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130111-0142_MALUBrue8_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130113-2044_MAVerkehr3_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130113-2052_MAVerkehr2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130113-2059_MAVerkehr4_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130113-2111_MAVerkehr5_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130113-2132_WunderK1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130113-2142_WunderK2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130203-1753_FerroVia1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130203-1813_FerroVia2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130203-1815_Origami11_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130203-1849_Origami12_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130203-1932_Cones11_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130203-1949_Cones12_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130203-2001_Cones21_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/life/scaled/20130203-2026_Cones31_scaled.mp4'
+  ];
+
+  nextVideo_life.sort(function (a, b) {
+    return Math.random() > 0.5 ? -1 : 1;
+  });
+
+  var curVideo_life = 0;
+  var videoPlayer_life = document.getElementById('videoPlayer_life');
+
+  videoPlayer_life.onended = function(){
+	    ++curVideo_life;
+      if(curVideo_life < nextVideo_life.length){
+    videoPlayer_life.src = nextVideo_life[curVideo_life];
     }
-  </script>
-  
-  
-  
-  <!-- mysterious series -->
-  <script>
-    var nextVideo_mysterious = [
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120925-2220_Roger_KloZwerg1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120925-2223_Roger_KloZwerg2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120925-2227_Roger_KloZwerg3_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120925-2230_Roger_KloZwerg4_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120925-2246_Roger_KloZwerg5_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120927-0037_Roger_KloZwerg6_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120927-2217_MysteriousBob1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120927-2223_MysteriousBob2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120927-2225_MysteriousBob2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120927-2228_MysteriousBob3_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120927-2234_MysteriousBob4_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130106-2146_CatPorn1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130106-2211_CatPorn2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130106-2229_Squash1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130106-2239_Squash2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130106-2357_Squash4_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130107-0006_Squash3_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130107-0032_Shot2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130108-2355_Talk2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130109-0024_Talk3_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130109-0025_Talk3_slow_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130109-0040_Talk4_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130109-2344_Talk5_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130110-0029_Squash7_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130110-0102_Squash10_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130113-2014_Squash5c_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130113-2128_Dampfkessel1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130113-2201_FaceRome1b_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130113-2249_FaceRome2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130117-2325_Shampoo1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130117-2333_Shampoo2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/lamp5_20fps_scaled.mp4'
-  
-    ];
-  
-    nextVideo_mysterious.sort(function (a, b) {
-      return Math.random() > 0.5 ? -1 : 1;
-    });
-  
-    var curVideo_mysterious = 0;
-    var videoPlayer_mysterious = document.getElementById('videoPlayer_mysterious');
-  
-    videoPlayer_mysterious.onended = function(){
-  	    ++curVideo_mysterious;
-        if(curVideo_mysterious < nextVideo_mysterious.length){
-      videoPlayer_mysterious.src = nextVideo_mysterious[curVideo_mysterious];
-      }
+  }
+</script>
+
+
+
+<!-- mysterious series -->
+<script>
+  var nextVideo_mysterious = [
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120925-2220_Roger_KloZwerg1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120925-2223_Roger_KloZwerg2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120925-2227_Roger_KloZwerg3_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120925-2230_Roger_KloZwerg4_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120925-2246_Roger_KloZwerg5_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120927-0037_Roger_KloZwerg6_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120927-2217_MysteriousBob1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120927-2223_MysteriousBob2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120927-2225_MysteriousBob2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120927-2228_MysteriousBob3_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20120927-2234_MysteriousBob4_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130106-2146_CatPorn1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130106-2211_CatPorn2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130106-2229_Squash1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130106-2239_Squash2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130106-2357_Squash4_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130107-0006_Squash3_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130107-0032_Shot2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130108-2355_Talk2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130109-0024_Talk3_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130109-0025_Talk3_slow_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130109-0040_Talk4_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130109-2344_Talk5_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130110-0029_Squash7_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130110-0102_Squash10_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130113-2014_Squash5c_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130113-2128_Dampfkessel1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130113-2201_FaceRome1b_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130113-2249_FaceRome2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130117-2325_Shampoo1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/20130117-2333_Shampoo2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/mysterious/scaled/lamp5_20fps_scaled.mp4'
+
+  ];
+
+  nextVideo_mysterious.sort(function (a, b) {
+    return Math.random() > 0.5 ? -1 : 1;
+  });
+
+  var curVideo_mysterious = 0;
+  var videoPlayer_mysterious = document.getElementById('videoPlayer_mysterious');
+
+  videoPlayer_mysterious.onended = function(){
+	    ++curVideo_mysterious;
+      if(curVideo_mysterious < nextVideo_mysterious.length){
+    videoPlayer_mysterious.src = nextVideo_mysterious[curVideo_mysterious];
     }
-  </script>
-  
-  
-  
-  <!-- people&animals series -->
-  <script>
-    var nextVideo_peopleanimals = [
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121015-2158_morphdogs1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121015-2225_morphdogs2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121015-2244_DOG1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121015-2250_DOG2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121015-2320_DOG3_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121022-2133_morph2dogs_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121026-0053_OutFrames1_noisy_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121026-0059_FishInWater1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121026-0106_FishInWater1_2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121026-0111_FishInWater1_3_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121026-0130_FishInWater2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121026-0132_FishInWater2_2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121026-0202_FishInWater2_3_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130118-0015_fIsH1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1519_Hare1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1524_Hare1_noisy_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1529_Hare2_noisy_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1536_Hare2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1629_fIsH2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1651_Hare12_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1655_Hare13_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1700_Hare11_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1721_Hare21_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1728_Hare22_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1731_Hare23_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/Kofi_out_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/kofi2_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/out_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/Studiobraun1_scaled.mp4', 
-    'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/studiobraun2_scaled.mp4'
-    ];
-  
-    nextVideo_peopleanimals.sort(function (a, b) {
-      return Math.random() > 0.5 ? -1 : 1;
-    });
-  
-    var curVideo_peopleanimals = 0;
-    var videoPlayer_peopleanimals = document.getElementById('videoPlayer_peopleanimals');
-  
-    videoPlayer_peopleanimals.onended = function(){
-  	    ++curVideo_peopleanimals;
-        if(curVideo_peopleanimals < nextVideo_peopleanimals.length){
-      videoPlayer_peopleanimals.src = nextVideo_peopleanimals[curVideo_peopleanimals];
-      }
+  }
+</script>
+
+
+
+<!-- people&animals series -->
+<script>
+  var nextVideo_peopleanimals = [
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121015-2158_morphdogs1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121015-2225_morphdogs2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121015-2244_DOG1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121015-2250_DOG2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121015-2320_DOG3_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121022-2133_morph2dogs_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121026-0053_OutFrames1_noisy_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121026-0059_FishInWater1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121026-0106_FishInWater1_2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121026-0111_FishInWater1_3_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121026-0130_FishInWater2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121026-0132_FishInWater2_2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20121026-0202_FishInWater2_3_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130118-0015_fIsH1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1519_Hare1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1524_Hare1_noisy_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1529_Hare2_noisy_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1536_Hare2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1629_fIsH2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1651_Hare12_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1655_Hare13_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1700_Hare11_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1721_Hare21_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1728_Hare22_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/20130203-1731_Hare23_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/Kofi_out_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/kofi2_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/out_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/Studiobraun1_scaled.mp4', 
+  'https://xaverfuchs.github.io/xaverfuchsderesources/Anims_sorted_scaled/people&animals/scaled/studiobraun2_scaled.mp4'
+  ];
+
+  nextVideo_peopleanimals.sort(function (a, b) {
+    return Math.random() > 0.5 ? -1 : 1;
+  });
+
+  var curVideo_peopleanimals = 0;
+  var videoPlayer_peopleanimals = document.getElementById('videoPlayer_peopleanimals');
+
+  videoPlayer_peopleanimals.onended = function(){
+	    ++curVideo_peopleanimals;
+      if(curVideo_peopleanimals < nextVideo_peopleanimals.length){
+    videoPlayer_peopleanimals.src = nextVideo_peopleanimals[curVideo_peopleanimals];
     }
-  </script>
-});
-
-
-
-
-
-
-
-
+  }
+</script>
