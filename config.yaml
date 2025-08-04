@@ -37,7 +37,7 @@ menu:
 
 params:
   description: "Research website of Xaver Fuchs"
-  footer: "&copy; [Xaver Fuchs](www.xaverfuchs.de) 2021 -- {Year} | [Github](https://github.com/xaverfuchs) | [Bluesky](https://bsky.app/profile/xaverfuchs.bsky.social)"
+  footer: "&copy; [Xaver Fuchs](/) 2021 -- {Year} | [Github](https://github.com/xaverfuchs) | [Bluesky](https://bsky.app/profile/xaverfuchs.bsky.social)"
 
 markup:
   highlight:
